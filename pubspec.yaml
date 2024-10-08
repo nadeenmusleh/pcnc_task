@@ -1,0 +1,38 @@
+name: pcnc_task
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  
+  # State Management
+  get: ^4.6.5  
+  
+  # HTTP Requests
+  http: ^1.2.2 
+  
+  # Shared Preferences
+  shared_preferences: ^2.3.2  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  get_storage:
+
+flutter:
+  uses-material-design: true
+
+  
+  assets:
+    - images/pcnc.png
+    - images/image.png
+    - images/user_profile.jpeg 
+    - images/no_results.png
